@@ -513,7 +513,7 @@ h6 {
   margin-left: 16px;
   fill: #ffffff;
 }
-.modal-layout {
+.modal-layout .is-open {
   position: fixed;
   top: 0;
   left: 0;
