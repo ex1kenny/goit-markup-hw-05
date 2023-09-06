@@ -561,8 +561,11 @@ h6 {
 }
 .active-button-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
 }
-.active-button-svg:hover,
+.active-button-svg:hover {
+  fill: #ffffff;
+}
 .active-button-svg:focus {
   fill: #ffffff;
 }
@@ -608,6 +611,7 @@ h6 {
   top: 50%;
   transform: translateY(-50%);
   color: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:focus + .input-svg {
   fill: #4d5ae5;
