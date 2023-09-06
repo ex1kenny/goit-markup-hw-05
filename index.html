@@ -538,7 +538,55 @@
             </li>
           </ul>
         </div>
+        <div class="footer-contacts">
+          <p class="subscribe-p">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-form-label">
+              <input
+                type="email"
+                placeholder="E-mail"
+                name="subscripe-email"
+                class="subscripe-input"
+              />
+            </label>
+            <button type="submit" class="footer-button-subs">
+              Subscribe
+              <svg class="subsripe-img" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <div class="modal-layout">
+      <div class="modal">
+        <button type="button" class="modal-button">
+          <svg class="active-button-svg" width="8" height="8">
+            <use href="/images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="modal-form">
+            <label for="user-name" class="form-label">Name </label>
+            <div class="input-wrapper">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="form-input"
+              />
+              <svg class="input-svg" width="18" height="24">
+                <use href="/images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form"></div>
+          <div class="modal-form"></div>
+          <div class="modal-form"></div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
