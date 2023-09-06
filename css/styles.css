@@ -564,7 +564,7 @@ h6 {
   border: none;
 }
 .modal-button:hover .active-button-svg,
-.modal-button:hover .active-button-svg {
+.modal-button:focus .active-button-svg {
   fill: #ffffff;
 }
 
