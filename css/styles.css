@@ -707,3 +707,6 @@ input[type="checkbox"]:checked
   border: none;
   background-color: #404bbf;
 }
+.modal-checkbox-wrapper input:focus {
+  border-color: #404bbf;
+}
