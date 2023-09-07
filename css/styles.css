@@ -526,8 +526,10 @@ h6 {
   visibility: hidden;
   pointer-events: none;
 }
-.is-open {
+.modal-layout.is-open {
   opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 .modal {
   position: absolute;
